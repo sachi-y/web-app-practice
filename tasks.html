@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>tasks</title>
+    </head>
+    <body>
+        <h1>タスク管理アプリケーション</h1>
+        <input id="task-title-input" type="text" />
+        <!-- disabled…初期状態は空であるため、ボタンを押せない状態にする -->
+        <button id="task-add-button" disabled>追加</button>
+        <h2>タスク一覧</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>タイトル</th>
+                    <th>作成日時</th>
+                </tr>
+            </thead>
+            <tbody id="tasks-table-body">
+            </tbody>
+        </table>
+        <script src="tasks.js"></script>
+    </body>
+</html>

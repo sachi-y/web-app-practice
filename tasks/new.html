@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>tasks</title>
+</head>
+<body>
+    <h1>タスク登録</h1>
+    <!-- HTTPリクエストを送るパスとメソッド-->
+    <!-- GET＝データの取得、POST＝データの取得・変更もできる -->
+    <form action="/tasks" method="post">
+        <label>
+            タイトル
+            <input type="text" name="title"/>
+        </label>
+        <button type="submit">登録</button>
+    </form>
+</body>
+</html>
